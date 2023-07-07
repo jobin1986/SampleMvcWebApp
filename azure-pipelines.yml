@@ -37,4 +37,5 @@ steps:
   inputs:
     nexusIqService: 'NexusIQConnection'
     applicationId: 'MvcWebApp'
+    scanTargets: '**/*.csproj, **/*.config,'
     stage: 'Build'
